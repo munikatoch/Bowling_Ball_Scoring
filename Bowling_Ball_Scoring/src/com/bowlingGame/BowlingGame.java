@@ -22,10 +22,17 @@ import com.frame.PinException;
 
 public class BowlingGame {
 	
+	
+	
 	private static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
 		
+		BowlingGame bg = new BowlingGame();
+		bg.calculatePoints();
+	}
+
+	private void calculatePoints() {
 		
 		int i, j, k, pin, sum = 0;
 		
